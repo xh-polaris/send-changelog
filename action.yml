@@ -4,6 +4,9 @@ inputs:
   webhook_url:
     description: The webhook of robot
     required: true
+  title:
+    description: The title of message
+    required: true
 runs:
   using: node16
   main: index.js

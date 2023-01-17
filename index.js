@@ -31,7 +31,7 @@ function sendChangLog() {
         header: {
           template: "blue",
           title: {
-            content: "MeowChat小程序更新日志",
+            content: core.getInput("title"),
             tag: "plain_text"
           }
         }

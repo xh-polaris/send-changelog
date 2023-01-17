@@ -8,12 +8,17 @@ Action used to send the changelog to the webhook of lark.
 
 **Required** The webhook of robot.
 
+### `title`
+
+**Required** The title of message.
+
 ## Example usage
 
 ```yaml
 uses: xh-polaris/send-changelog@v1.0.0
 with:
   webhook_url: https://example.com/path
+  title: Changelog
 ```
 
 ## License
