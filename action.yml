@@ -1,0 +1,9 @@
+name: send-changelog
+description: Action used to send the changelog to the webhook of lark
+inputs:
+  webhook_url:
+    description: The webhook of robot
+    required: true
+runs:
+  using: node16
+  main: index.js
